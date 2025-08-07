@@ -19,3 +19,4 @@ function lonelyinteger($a) {
     }
     return array_shift($found);
 }
+
