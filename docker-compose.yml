@@ -1,0 +1,9 @@
+services:
+  php:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PATH=/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    command: bash
